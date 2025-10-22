@@ -1,6 +1,7 @@
 package com.mvpyouedu.YouEdu_api.domain.videos;
 
 
+import com.mvpyouedu.YouEdu_api.domain.dto.videos.DadosParaUpload;
 import com.mvpyouedu.YouEdu_api.domain.enuns.Categoria;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -27,6 +28,7 @@ public class VideoEntity {
     private String titulo;
 
     private String url;
+
 
 
 }

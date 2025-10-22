@@ -1,7 +1,8 @@
 package com.mvpyouedu.YouEdu_api.controller.authUser;
 
 
-import com.mvpyouedu.YouEdu_api.domain.dto.videos.DadodParaUpload;
+import com.mvpyouedu.YouEdu_api.domain.dto.videos.DadosParaUpload;
+import com.mvpyouedu.YouEdu_api.service.video.FileUpload;
 import com.mvpyouedu.YouEdu_api.service.video.UploadService;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
@@ -16,20 +17,17 @@ public class PublicarVideoController {
 
     @Autowired
     private UploadService uploadService;
+    @Autowired
+    private FileUpload upload;
 
 
     @PostMapping("/upload")
     @Transactional
-    public ResponseEntity publicarVideo(@RequestParam("file") MultipartFile file, @RequestBody @Valid DadodParaUpload dadosUpload){
+    public ResponseEntity publicarVideo(@ModelAttribute DadosParaUpload dadosParaUpload){
 
+        var video =upload.saveVideo(dadosParaUpload);
 
-
-        String respostaUpload = uploadService.uploadFile(file);
-
-        return ResponseEntity.ok(respostaUpload);
-
-
-
+        return ResponseEntity.ok("Vídeo adicionado com sucesso");
 
 
     }
