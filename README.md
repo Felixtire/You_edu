@@ -1,2 +1,4 @@
 #You Edu
-Projeto meio malucde uma aplicação de vídeos curtos com foco educacional.
+
+
+Projeto meio maluco de uma aplicação de vídeos curtos com foco educacional.
