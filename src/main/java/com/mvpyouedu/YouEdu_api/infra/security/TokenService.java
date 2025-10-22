@@ -37,19 +37,7 @@ public class TokenService {
 
 
     }
-    public String gerarTokenParaRecuperacao(String login) {
-        try{
-            Algorithm algoritmo = Algorithm.HMAC256(secretkey);
 
-            return JWT.create()
-                    .withIssuer("YouEdu_api")
-                    .withSubject(login)
-                    .withExpiresAt(dataLimite())
-                    .sign(algoritmo);
-        }catch (JWTCreationException exception){
-            throw new RuntimeException("Erro ao gerar o token");
-        }
-    }
 
     private Instant dataLimite() {
 
