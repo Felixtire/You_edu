@@ -1,11 +1,11 @@
 package com.mvpyouedu.YouEdu_api.controller.usuario;
 
 
-import com.mvpyouedu.YouEdu_api.domain.dto.DadoAtualizadosUsuario;
-import com.mvpyouedu.YouEdu_api.domain.dto.DadosAtualizarUsuario;
-import com.mvpyouedu.YouEdu_api.domain.dto.DadosSaidaCadastroUsuario;
-import com.mvpyouedu.YouEdu_api.domain.dto.DadosCadastroUsuario;
-import com.mvpyouedu.YouEdu_api.service.CadastroService;
+import com.mvpyouedu.YouEdu_api.domain.dto.login.DadoAtualizadosUsuario;
+import com.mvpyouedu.YouEdu_api.domain.dto.cadastro.DadosAtualizarUsuario;
+import com.mvpyouedu.YouEdu_api.domain.dto.cadastro.DadosSaidaCadastroUsuario;
+import com.mvpyouedu.YouEdu_api.domain.dto.cadastro.DadosCadastroUsuario;
+import com.mvpyouedu.YouEdu_api.service.user.CadastroService;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

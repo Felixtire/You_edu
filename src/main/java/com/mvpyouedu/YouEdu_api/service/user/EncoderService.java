@@ -1,8 +1,5 @@
-package com.mvpyouedu.YouEdu_api.service;
+package com.mvpyouedu.YouEdu_api.service.user;
 
-import com.mvpyouedu.YouEdu_api.domain.dto.DadosCadastroUsuario;
-import com.mvpyouedu.YouEdu_api.domain.dto.DadosLogin;
-import com.mvpyouedu.YouEdu_api.domain.usuario.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

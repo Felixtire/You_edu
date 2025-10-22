@@ -1,6 +1,6 @@
 package com.mvpyouedu.YouEdu_api.infra.security;
 
-import com.mvpyouedu.YouEdu_api.domain.usuario.UsuarioRepository;
+import com.mvpyouedu.YouEdu_api.repository.UsuarioRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

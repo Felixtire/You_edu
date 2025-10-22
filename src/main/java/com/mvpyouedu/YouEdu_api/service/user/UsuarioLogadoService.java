@@ -1,9 +1,9 @@
-package com.mvpyouedu.YouEdu_api.service;
+package com.mvpyouedu.YouEdu_api.service.user;
 
-import com.mvpyouedu.YouEdu_api.domain.dto.DadoParaAlterarSenha;
+import com.mvpyouedu.YouEdu_api.domain.dto.cadastro.DadoParaAlterarSenha;
 import com.mvpyouedu.YouEdu_api.domain.usuario.UsuarioEntity;
-import com.mvpyouedu.YouEdu_api.domain.usuario.UsuarioRepository;
 import com.mvpyouedu.YouEdu_api.infra.security.TokenService;
+import com.mvpyouedu.YouEdu_api.repository.UsuarioRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

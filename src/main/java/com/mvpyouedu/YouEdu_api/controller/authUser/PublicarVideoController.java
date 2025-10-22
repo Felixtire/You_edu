@@ -1,8 +1,8 @@
 package com.mvpyouedu.YouEdu_api.controller.authUser;
 
 
-import com.mvpyouedu.YouEdu_api.domain.dto.DadodParaUpload;
-import com.mvpyouedu.YouEdu_api.service.UploadService;
+import com.mvpyouedu.YouEdu_api.domain.dto.videos.DadodParaUpload;
+import com.mvpyouedu.YouEdu_api.service.video.UploadService;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

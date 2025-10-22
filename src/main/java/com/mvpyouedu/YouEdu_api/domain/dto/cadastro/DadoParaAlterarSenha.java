@@ -1,4 +1,4 @@
-package com.mvpyouedu.YouEdu_api.domain.dto;
+package com.mvpyouedu.YouEdu_api.domain.dto.cadastro;
 
 import jakarta.validation.constraints.NotBlank;
 

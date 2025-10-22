@@ -1,4 +1,4 @@
-package com.mvpyouedu.YouEdu_api.domain.videos;
+package com.mvpyouedu.YouEdu_api.domain.enuns;
 
 public enum Categoria {
     CIENCIAS_EXATAS,

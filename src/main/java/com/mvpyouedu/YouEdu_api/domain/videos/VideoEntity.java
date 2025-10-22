@@ -1,6 +1,7 @@
 package com.mvpyouedu.YouEdu_api.domain.videos;
 
 
+import com.mvpyouedu.YouEdu_api.domain.enuns.Categoria;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

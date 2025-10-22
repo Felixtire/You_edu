@@ -1,4 +1,4 @@
-package com.mvpyouedu.YouEdu_api.service;
+package com.mvpyouedu.YouEdu_api.service.video;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;

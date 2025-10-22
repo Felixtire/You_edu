@@ -1,17 +1,14 @@
-package com.mvpyouedu.YouEdu_api.service;
+package com.mvpyouedu.YouEdu_api.service.user;
 
-import com.mvpyouedu.YouEdu_api.domain.dto.DadosAtualizarUsuario;
-import com.mvpyouedu.YouEdu_api.domain.dto.DadosCadastroUsuario;
-import com.mvpyouedu.YouEdu_api.domain.dto.DadosDeletarUsuario;
-import com.mvpyouedu.YouEdu_api.domain.dto.ListagemTodoDto;
+import com.mvpyouedu.YouEdu_api.domain.dto.cadastro.DadosAtualizarUsuario;
+import com.mvpyouedu.YouEdu_api.domain.dto.cadastro.DadosCadastroUsuario;
+import com.mvpyouedu.YouEdu_api.domain.dto.cadastro.ListagemTodoDto;
 import com.mvpyouedu.YouEdu_api.domain.usuario.UsuarioEntity;
-import com.mvpyouedu.YouEdu_api.domain.usuario.UsuarioRepository;
+import com.mvpyouedu.YouEdu_api.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.swing.text.html.Option;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class CadastroService {

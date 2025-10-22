@@ -1,6 +1,6 @@
-package com.mvpyouedu.YouEdu_api.domain.dto;
+package com.mvpyouedu.YouEdu_api.domain.dto.cadastro;
 
-import com.mvpyouedu.YouEdu_api.domain.usuario.TipoUsuario;
+import com.mvpyouedu.YouEdu_api.domain.enuns.TipoUsuario;
 import com.mvpyouedu.YouEdu_api.domain.usuario.UsuarioEntity;
 
 public record DadosSaidaCadastroUsuario(String nome, String email, TipoUsuario tipoUsuario) {
