@@ -1,0 +1,6 @@
+CREATE TABLE curtidas (
+    id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    video_id BIGINT NOT NULL,
+    curtidas BIGINT NOT NULL DEFAULT 0,
+    FOREIGN KEY (video_id) REFERENCES videos(id)
+);
