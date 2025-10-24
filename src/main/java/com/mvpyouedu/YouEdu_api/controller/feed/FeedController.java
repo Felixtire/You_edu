@@ -1,4 +1,4 @@
-package com.mvpyouedu.YouEdu_api.controller;
+package com.mvpyouedu.YouEdu_api.controller.feed;
 
 import com.mvpyouedu.YouEdu_api.domain.feed.FeedService;
 import com.mvpyouedu.YouEdu_api.domain.videos.VideoEntity;
